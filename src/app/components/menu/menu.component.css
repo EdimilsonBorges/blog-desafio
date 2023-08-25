@@ -1,0 +1,69 @@
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #F0F0FC;
+
+}
+.nav__menu{
+    position:relative;
+    background-color: #151426;
+    width: 90%;
+    border-radius: 60px;
+    margin: 10px auto 3px auto;
+}
+.nav__menu > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #151426;
+    border-radius: 60px;
+}
+.nav__menu > div > ul{
+    display: flex;
+    flex-direction: row;
+    background-color: #151426;
+    border-radius: 60px;
+}
+.nav__menu > div> ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151426;
+    color: #F0F0FC;
+    margin: 7px;
+    list-style: none;
+    border: #F0F0FC solid 2px;
+    border-radius: 15px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.nav__menu > div> ul > li:hover{
+    color: #151426;
+    background-color: #F0F0FC;
+}
+
+
+.nav__menu > div> ul > li:hover > svg{
+    fill: #151426;
+}
+.nav__menu > div> ul > li:hover > svg{
+    fill: #151426;
+}
+
+.nav__menu > div> ul > .logo, .nav__menu > div> ul >.themes{
+    width: 50px;
+    background-color: #F0F0FC;
+    color: #151426; 
+    font-size: 20pt;
+    border-radius: 50%;
+    font-weight: bold;
+ }
+ .nav__menu > div> ul > .logo:hover, .nav__menu > div> ul >.themes:hover{
+    background-color: #151426;
+    color: #F0F0FC; 
+ }
+
+ .nav__menu > div> ul > .logo:hover > svg, .nav__menu > div> ul > .themes:hover > svg{
+    fill: #F0F0FC; 
+ }
