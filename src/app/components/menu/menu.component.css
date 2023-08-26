@@ -2,6 +2,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: #F0F0FC;
+    z-index: 9999;
 
 }
 .nav__menu{
