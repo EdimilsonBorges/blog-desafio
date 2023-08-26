@@ -1,0 +1,47 @@
+*{
+    background-color: #F0F0FC;
+    margin-bottom: 30px;
+}
+.span-top{
+text-transform: uppercase;
+background-color: #FCFCFC;
+font-weight: bold;
+color: #151426;
+border-radius: 15px;
+padding: 5px 20px 5px 20px;
+font-size: 10pt;
+}
+h1{
+    font-size: 35pt;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+h1 >.span-title{
+    border-bottom: solid #97E2B7 10px;
+}
+p{
+    color: #6E6E7A;
+    font-weight: bold;
+}
+
+a{
+    color: #151426;
+}
+
+button > svg{
+    margin: 0px 10px 0px 10px;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 60px;
+    color: #F0F0FC;
+    background-color: #151426;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: 600;
+}
