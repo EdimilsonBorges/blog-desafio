@@ -1,0 +1,23 @@
+*{
+    background-color: #F0F0FC;
+}
+.card-left{
+padding: 2px;
+background-color: #151426;
+border-radius: 12px 12px 12px 12px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+.card-left img{
+width: 100%;
+margin-right: 2px;
+border-radius: 10px 10px 0px 0px;
+
+}
+.card-decription{
+    background-color: #151426;
+    color: #F0F0FC;
+    font-size: 20pt;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}

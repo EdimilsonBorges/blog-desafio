@@ -16,13 +16,12 @@
 }
 
 .container__content_main{
-    width: 60%;
+    width: 70%;
     margin: 3px;
 }
 .container__content_rigth{
-    width: 40%;
+    width: 30%;
     margin: 3px;
-    background-color: #151426;
 }
 .small-card-rigth{
     position: relative;
