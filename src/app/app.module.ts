@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ContentsComponent } from './components/contents/contents.component';
-import { SmallCardRigth } from './components/small-card-rigth/small-card-rigth.component';
-import { CardLeftComponent } from './components/card-left/card-left.component';
+import { SmallCard } from './components/small-card/small-card.component';
+import { CardRigthComponent } from './components/card-rigth/card-rigth.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +15,8 @@ import { CardLeftComponent } from './components/card-left/card-left.component';
     HomeComponent,
     MenuComponent,
     ContentsComponent,
-    SmallCardRigth,
-    CardLeftComponent
+    SmallCard,
+    CardRigthComponent
   ],
   imports: [
     BrowserModule,

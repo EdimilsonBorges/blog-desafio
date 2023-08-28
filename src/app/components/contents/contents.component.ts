@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contents',
@@ -6,6 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contents.component.css']
 })
 export class ContentsComponent implements OnInit {
+
+  @Input()
+  nomeBlog:string = "";
+  @Input()
+  msgWelcome:string = "";
+  @Input()
+  autorName:string = "";
+  @Input()
+  btnText:string = "";
+  @Input()
+  linkDetails:string = "";
+  @Input()
+  msgDetails:string = "";
 
   constructor() { }
 

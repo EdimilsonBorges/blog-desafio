@@ -16,9 +16,9 @@
 .division > div{
     margin-left: 10px;
 }
-.small-card-rigth{
-    width: 21vw;
-    margin-right: 1px;
+.small-card{
+    width: 230px;
+    margin-right: 35px;
 }
 header{
     text-transform: capitalize;
