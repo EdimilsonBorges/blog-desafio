@@ -8,6 +8,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { ContentsComponent } from './components/contents/contents.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { CardRigthComponent } from './components/card-rigth/card-rigth.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { DetailsComponent } from './pages/details/details.component';
 
 @NgModule({
@@ -18,6 +20,8 @@ import { DetailsComponent } from './pages/details/details.component';
     ContentsComponent,
     SmallCardComponent,
     CardRigthComponent,
+    FooterComponent,
+    NotfoundComponent,
     DetailsComponent
   ],
   imports: [

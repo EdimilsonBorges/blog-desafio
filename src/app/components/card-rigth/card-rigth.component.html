@@ -1,4 +1,7 @@
-<div class="card-left">
-    <img [src]="imgCardRigth" alt="">
-    <p class="card-decription">{{decriptionCardRigth}}</p>
-</div>
+<a [routerLink]="['details', id]">
+    <div class="card-left">
+        <img [src]="imgCardRigth" alt="">
+        <span>{{dateCardRigth}}</span>
+        <p class="card-decription">{{decriptionCardRigth}}</p>
+    </div>
+</a>

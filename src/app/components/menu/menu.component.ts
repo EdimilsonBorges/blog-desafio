@@ -26,10 +26,6 @@ export class MenuComponent implements OnInit {
     this.router.navigate(['']);
   }
 
-  goToServices() {
-    this.router.navigate(['/services']);
-  }
-
   goToAbout() {
     this.router.navigate(['/about']);
   }
@@ -37,10 +33,16 @@ export class MenuComponent implements OnInit {
     this.router.navigate(['/mission']);
   }
 
-  isThemeLight: boolean = true;
-
   toggleTheme() {
-    document.body.classList.toggle('dark-theme');
+    if(localStorage.getItem("theme") != "dark"){
+      console.log(localStorage.getItem("theme"));
+      document.body.classList.toggle('dark-theme');
+      localStorage.setItem('theme', 'dark');
+    }else{
+      document.body.classList.toggle('dark-theme');
+      localStorage.removeItem('theme');
+      console.log(localStorage.getItem("theme"));
+    }
   }
 
 }

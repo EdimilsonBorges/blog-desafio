@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-notfound',
+  templateUrl: './notfound.component.html',
+  styleUrls: ['./notfound.component.css']
 })
-export class HomeComponent implements OnInit {
-  constructor() {
-  }
+export class NotfoundComponent implements OnInit {
+
+  constructor() { }
 
   ngOnInit(): void {
     if(localStorage.getItem("theme")){

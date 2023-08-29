@@ -1,31 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { DetailsComponent } from './pages/details/details.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: HomeComponent
+    path: '', component: HomeComponent, pathMatch: 'full'
   },
   {
-    path: 'details',
-    component: DetailsComponent
+    path: 'details/:id', component: DetailsComponent
+  },
+  {
+    path: 'pagenotfound', component: NotfoundComponent, pathMatch: 'full'
   }
   ,
   {
-    path: 'services',
-    component: DetailsComponent
-  }
-  ,
-  {
-    path: 'about',
-    component: DetailsComponent
-  }
-  ,
-  {
-    path: 'mission',
-    component: DetailsComponent
+    path: '**', redirectTo: 'pagenotfound'
   }
 ];
 

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contents',
@@ -20,9 +21,13 @@ export class ContentsComponent implements OnInit {
   @Input()
   msgDetails:string = "";
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  goToNews() {
+    this.router.navigate(['/details/1']);
   }
 
 }
