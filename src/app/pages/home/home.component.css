@@ -4,7 +4,7 @@
 }
 .container__main{
     margin: 0px auto 0px auto;
-    height: 900px;
+    min-height: 100vh;
     padding: 15px;
 }
 .container__content{
@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     margin: 100px auto;
 }
@@ -32,4 +32,11 @@
     flex-wrap: wrap;
     width: 100%;
     
+}
+
+@media screen and (max-width: 800px) {
+    .container__content_main{
+        width: 100%;
+        margin: 0px 0px;
+    }
 }

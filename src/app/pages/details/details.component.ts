@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
 
 @Component({
@@ -12,8 +12,10 @@ export class DetailsComponent implements OnInit {
   imgDetail: string = "";
   titleDetail: string = "";
   contentDetail: string = "";
+  dateDetail:string = "";
   private id: string | null = "0";
-  constructor(private route: ActivatedRoute) { }
+
+  constructor(private route: ActivatedRoute, private router:Router ) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((value) => {
@@ -33,9 +35,15 @@ export class DetailsComponent implements OnInit {
       return article.id == id;
     })[0];
 
-    this.titleDetail = result.title;
-    this.contentDetail = result.description;
-    this.imgDetail = result.photo;
+    if(result){
+      this.titleDetail = result.title;
+      this.contentDetail = result.description;
+      this.imgDetail = result.photo; 
+      this.dateDetail = result.date;
+    }else{
+      this.router.navigate(['pagenotfound']);
+    }
+    
   }
 
 }

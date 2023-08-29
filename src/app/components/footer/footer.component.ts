@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  textDeveloped:string = "Developed by Edimilson Borges";
+
   constructor() { }
 
   ngOnInit(): void {
