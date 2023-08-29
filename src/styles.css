@@ -2,5 +2,21 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #F0F0FC;
+}
+
+:root {
+    --primary: #F0F0FC;
+    --body: #151426;
+    --text-menu: #141425;
+    --text-body: #F0F0FC;
+    --destaque:  #141425;
+  }
+  
+  :root .dark-theme {
+    --primary: #141425;
+    --text-menu: #F0F0FC;
+    --body: #262939;
+    
+    --text-body: #fff;
+    --destaque:  #39D478;
 }

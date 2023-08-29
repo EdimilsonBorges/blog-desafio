@@ -1,10 +1,11 @@
 *{
-    background-color: #151426;
+    background-color: var(--body);
 }
+
 header{
     position: fixed;
     width: 100%;
-    background-color: #F0F0FC;
+    background-color: var(--primary);
     z-index: 9999;
 
 }
@@ -40,26 +41,24 @@ header{
 }
 
 .nav__menu > div> ul > a > li:hover, .nav__menu > div> ul > li:hover{
-    color: #151426;
-    background-color: #F0F0FC;
+    color: var(--text-menu);
+    background-color: var(--primary);
 }
 
 
 .nav__menu > div> ul > a > li:hover > svg{
-    fill: #151426;
+    fill: var(--text-menu);
 }
 
 .nav__menu > div> ul > .logo, .nav__menu > div> ul > .themes{
     width: 50px;
     background-color: #F0F0FC;
-    color: #151426; 
     font-size: 20pt;
     border-radius: 50%;
     font-weight: bold;
  }
  .nav__menu > div> ul > .logo:hover, .nav__menu > div> ul > .themes:hover{
-    background-color: #151426;
-    color: #F0F0FC; 
+    background-color: var(--body);
  }
 
  .nav__menu > div> ul > .logo:hover > svg, .nav__menu > div> ul > .themes:hover > svg{

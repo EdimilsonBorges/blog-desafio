@@ -1,12 +1,12 @@
 *{
-    background-color: #F0F0FC;
+    background-color: var(--primary);
     margin-bottom: 30px;
 }
 .span-top{
 text-transform: uppercase;
 background-color: #FCFCFC;
 font-weight: bold;
-color: #151426;
+color: var(--body);
 border-radius: 15px;
 padding: 5px 20px 5px 20px;
 font-size: 10pt;
@@ -15,6 +15,7 @@ h1{
     font-size: 40pt;
     margin-top: 30px;
     text-transform: capitalize;
+    color: var(--text-menu);
 }
 h1 >.span-title{
     border-bottom: solid #97E2B7 10px;
@@ -25,7 +26,7 @@ p{
 }
 
 a{
-    color: #151426;
+    color: var(--text-menu);
 }
 
 button > svg{
@@ -37,9 +38,10 @@ button{
     flex-direction: row;
     align-items: center;
     padding: 10px 50px 10px 50px;
+    border: none;
     margin-bottom: 60px;
-    color: #F0F0FC;
-    background-color: #151426;
+    color: var(--primary);
+    background-color: var(--destaque);
     border-radius: 10px;
     cursor: pointer;
     font-size: 10pt;

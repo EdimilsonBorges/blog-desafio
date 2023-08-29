@@ -1,9 +1,9 @@
 *{
-    background-color: #F0F0FC;
+    background-color: var(--primary);
 }
 .card-left{
 padding: 2px;
-background-color: #151426;
+background-color: var(--body);
 border-radius: 12px 12px 12px 12px;
 margin-bottom: 10px;
 cursor: pointer;
@@ -15,8 +15,8 @@ border-radius: 10px 10px 0px 0px;
 
 }
 .card-decription{
-    background-color: #151426;
-    color: #F0F0FC;
+    background-color: var(--body);;
+    color: var(--text-body);
     font-size: 20pt;
     border-radius: 0px 0px 10px 10px;
     text-align: center;

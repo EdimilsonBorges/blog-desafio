@@ -1,6 +1,6 @@
 
 *{
-    background-color: #F0F0FC;
+    background-color: var(--primary);
 }
 .container__main{
     margin: 0px auto 0px auto;

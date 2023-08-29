@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrls: ['./small-card.component.css']
 })
-export class SmallCard implements OnInit {
+export class SmallCardComponent implements OnInit {
 
   @Input()
   titleSmallCard:string = "";
