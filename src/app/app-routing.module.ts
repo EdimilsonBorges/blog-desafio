@@ -11,7 +11,7 @@ const routes: Routes = [
     path: '', component: HomeComponent, pathMatch: 'full'
   },
   {
-    path: 'details/:id', component: DetailsComponent
+    path: 'post/:id', component: DetailsComponent
   },
   {
     path: 'pagenotfound', component: NotfoundComponent, pathMatch: 'full'
