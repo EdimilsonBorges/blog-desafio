@@ -27,7 +27,7 @@ export class ContentsComponent implements OnInit {
   }
 
   goToNews() {
-    this.router.navigate(['details/1']);
+    this.router.navigate(['posts']);
   }
 
 }

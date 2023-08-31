@@ -1,0 +1,6 @@
+.container__main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 10px 10px 10px;
+    background-color: var(--primary);
+}

@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { DetailsComponent } from './pages/details/details.component';
+import { AboutComponent } from './pages/about/about.component';
+import { TopicsComponent } from './pages/posts/posts.component';
 
 const routes: Routes = [
   {
@@ -13,6 +15,14 @@ const routes: Routes = [
   },
   {
     path: 'pagenotfound', component: NotfoundComponent, pathMatch: 'full'
+  }
+  ,
+  {
+    path: 'posts', component: TopicsComponent, pathMatch: 'full'
+  }
+  ,
+  {
+    path: 'about', component: AboutComponent, pathMatch: 'full'
   }
   ,
   {

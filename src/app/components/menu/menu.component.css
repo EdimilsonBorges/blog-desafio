@@ -45,6 +45,10 @@ header{
     background-color: var(--primary);
 }
 
+.active{
+    background-color: var(--primary) !important;
+    color:var(--text-menu) !important;
+ }
 
 .nav__menu > div> ul > a > li:hover > svg{
     fill: var(--text-menu);

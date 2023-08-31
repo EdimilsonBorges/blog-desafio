@@ -29,8 +29,8 @@ export class MenuComponent implements OnInit {
   goToAbout() {
     this.router.navigate(['/about']);
   }
-  goToMission() {
-    this.router.navigate(['/mission']);
+  goToPosts() {
+    this.router.navigate(['/posts']);
   }
 
   toggleTheme() {

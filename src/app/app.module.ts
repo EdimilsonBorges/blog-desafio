@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -11,6 +11,10 @@ import { CardRigthComponent } from './components/card-rigth/card-rigth.component
 import { FooterComponent } from './components/footer/footer.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { DetailsComponent } from './pages/details/details.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContentAboutComponent } from './components/content-about/content-about.component';
+import { TopicsComponent } from './pages/posts/posts.component';
+import { PostComponent } from './components/post/post.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +26,16 @@ import { DetailsComponent } from './pages/details/details.component';
     CardRigthComponent,
     FooterComponent,
     NotfoundComponent,
-    DetailsComponent
+    DetailsComponent,
+    AboutComponent,
+    ContentAboutComponent,
+    TopicsComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
