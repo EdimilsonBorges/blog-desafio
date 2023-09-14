@@ -13,8 +13,8 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { DetailsComponent } from './pages/details/details.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContentAboutComponent } from './components/content-about/content-about.component';
-import { TopicsComponent } from './pages/posts/posts.component';
 import { PostComponent } from './components/post/post.component';
+import { PostsComponent } from './pages/posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +29,8 @@ import { PostComponent } from './components/post/post.component';
     DetailsComponent,
     AboutComponent,
     ContentAboutComponent,
-    TopicsComponent,
-    PostComponent
+    PostComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,

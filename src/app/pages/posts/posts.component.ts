@@ -7,8 +7,7 @@ import { dataFake } from '../../data/dataFake';
   styleUrls: ['./posts.component.css']
 })
 
-export class TopicsComponent implements OnInit {
-
+export class PostsComponent implements OnInit {
 
   posts: Post|any = {
     id: "",
