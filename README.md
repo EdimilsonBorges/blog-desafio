@@ -1,7 +1,7 @@
 # BlogDesafio
 
 ## 📖 Descrição
-No universo desafiador da programação, participei de um desafio proposto pela Digital Innovation One (DIO) em parceria com o Banco Santander. O objetivo era criar um blog dinâmico utilizando Angular, uma poderosa framework para o desenvolvimento de aplicações web. Neste artigo, compartilho minha jornada desde a concepção da ideia até a implementação final.
+No universo desafiador da programação, participei de um desafio proposto pela Digital Innovation One (DIO) em parceria com o Santander. O objetivo era criar um blog utilizando Angular, uma poderosa framework para o desenvolvimento de aplicações web. Neste artigo, compartilho minha jornada desde a concepção da ideia até a implementação final.
 
 Este projeto foi concebido durante a participação no **[Santander Bootcamp 2023 - Fullstack Java+Angular](https://www.dio.me/certificate/CA437454/share)**, uma experiência de aprendizado proporcionada por meio de uma bolsa de estudos oferecida pela colaboração entre a renomada empresa [Santander](https://www.santanderopenacademy.com/pt_br/index.html) e a [DIO (Digital Innovation One)](https://www.dio.me/). O objetivo era criar um blog utilizando Angular, uma poderosa framework para o desenvolvimento de aplicações web. Neste artigo, compartilho minha jornada desde a concepção da ideia até a implementação final..
 ![tema-claro](https://github.com/EdimilsonBorges/blog-desafio/assets/104403198/f8ac7c78-973e-4630-8fe3-f743ebb1381c)
@@ -12,7 +12,6 @@ Este projeto foi concebido durante a participação no **[Santander Bootcamp 202
 ## 📑 Índices
 - [Descrição](#-descrição)
 - [Pré-requisitos](#-pré-requisitos)
-- [Como Jogar](#-como-jogar)
 - [Tecnologias utilizadas](#️-tecnologias-utilizadas)
 - [Recursos](#️-recursos)
 - [Autor](#️-autor)
