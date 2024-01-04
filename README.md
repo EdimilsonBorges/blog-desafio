@@ -25,7 +25,7 @@ Este projeto foi concebido durante a participação no **[Santander Bootcamp 202
 - [HTML 5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação
 - [CSS 3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Linguagem de estilização
 ## ⛏️ Recursos
-Design responsivo para uma experiência perfeita em dispositivos desktop e mobile.
+Design responsivo para uma experiência perfeita em dispositivos desktop e mobile.   
 Tema claro e escuro.
 ## ✒️ Autor
 **Desenvolvedor Full stack** - [Edimilson Borges](https://github.com/EdimilsonBorges)
