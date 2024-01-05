@@ -19,6 +19,7 @@ Este projeto foi concebido durante a participação no **[Santander Bootcamp 202
 ## 📋 Pré-requisitos
  - Navegador Web (De sua preferência)
  - Acesso à internet
+ - Link de acesso -> [https://blog-desafio-dio.netlify.app/](https://blog-desafio-dio.netlify.app/)
 ## 🛠️ Tecnologias utilizadas
 - [TypeScript](https://www.typescriptlang.org/) -  Linguagem de programação
 - [Angular](https://angular.io/) -  Framework 
